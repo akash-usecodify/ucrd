@@ -1,0 +1,1836 @@
+# PROJECT: COMPLETE WEBSITE REDESIGN FOR USECODIFY INDIA (OPC) PRIVATE LIMITED
+
+## 1. YOUR ROLE AND OBJECTIVE
+
+Act as a senior full-stack web developer, award-winning digital product designer, UI/UX architect, creative director, motion designer, SEO specialist, accessibility engineer, and website performance engineer.
+
+Your task is to completely redesign and rebuild the existing website of UseCodify India (OPC) Private Limited:
+
+**Existing website:** https://usecodify.in/
+
+**Company:** UseCodify India (OPC) Private Limited  
+**Brand:** UseCodify  
+**Primary market:** India  
+**Website language:** English  
+**Primary currency:** Indian Rupees (INR, ₹)  
+**Primary contact email:** hello@usecodify.com  
+**Primary website domain:** https://usecodify.in/
+
+This is a complete website redesign, not a simple homepage redesign.
+
+The finished website must preserve the company's identity, existing business information, services, pricing plans, company story, testimonials, processes, legal pages, contact information, and all other relevant content available on the current website while transforming the design into a premium, modern, immersive digital experience.
+
+The new website must feel like a premium international technology company that understands design, engineering, and business growth. It must not look like a generic agency template, an ordinary WordPress theme, a basic Bootstrap website, or a collection of generic AI-generated sections.
+
+The visual experience should combine liquid glass, fluid gradients, sophisticated typography, cinematic transitions, interactive elements, immersive animations, refined layouts, and exceptional usability.
+
+However, visual effects must never compromise readability, accessibility, website speed, search engine visibility, mobile responsiveness, or functionality.
+
+**The final deliverable must be a complete, working, multi-page website with an `index.html` entry point that can be uploaded to a web server.**
+
+Do not stop after producing a concept, screenshot, design mockup, component demonstration, or homepage prototype. Build the actual website and all required supporting files.
+
+---
+
+## 2. FIRST TASK: AUDIT THE ENTIRE EXISTING WEBSITE
+
+Before writing code, inspect the existing website:
+
+https://usecodify.in/
+
+Crawl the website systematically and identify every publicly accessible, first-party page.
+
+Start with the homepage, inspect its navigation and footer, follow every internal link, examine all service pages, and identify legal pages, pricing pages, contact pages, and any additional content pages.
+
+Check the site's sitemap.xml and robots.txt where available. Examine canonical URLs, page titles, metadata, internal links, redirects, and existing URL structures.
+
+Do not assume that the pages listed in this prompt constitute the entire website. Discover additional pages from the actual website and include them where appropriate.
+
+Inspect the actual content of every page, including:
+
+- Main headings and subheadings.
+- Paragraphs and descriptive content.
+- Service descriptions and individual service benefits.
+- Numbered processes and workflow explanations.
+- Pricing plans, prices, features, and renewal charges.
+- Customer testimonials and attribution.
+- Company statistics and credibility information.
+- Calls to action.
+- Contact details and contact forms.
+- Legal information, policies, and disclaimers.
+- Images, illustrations, icons, logos, and other visual assets.
+- Navigation menus and footer links.
+- Buttons, interactive elements, accordions, and other existing functionality.
+- Mobile navigation and responsive layouts.
+- Any existing integrations or external destinations.
+
+Create an internal page inventory before implementation.
+
+For every existing page, record its current URL, page title, purpose, content sections, calls to action, links, forms, and any important details.
+
+Use the existing website as the authoritative source for its current content. Do not replace real company information with fabricated copy.
+
+If a page is inaccessible, inspect its links and available cached or indexed information where possible. Clearly identify any content that could not be verified rather than inventing it.
+
+### Content preservation requirements
+
+This redesign must preserve the information architecture and substantive content of the original website.
+
+You may improve grammar, spelling, clarity, and presentation, but do not silently remove important information, change prices, alter service promises, modify contractual conditions, fabricate statistics, invent customer testimonials, or change the meaning of legal policies.
+
+The objective is to make the website substantially better without losing the information that existing and prospective customers rely on.
+
+If you identify inconsistent information across the existing website, record the inconsistency and use a clearly documented, configurable value rather than arbitrarily deciding which version is correct.
+
+For example, if contact addresses, service descriptions, or pricing details differ between pages, do not silently combine them into an invented version.
+
+Once the audit is complete, implement the complete website. Do not stop at the audit report.
+
+---
+
+## 3. BRAND POSITIONING AND BUSINESS CONTEXT
+
+UseCodify India is a digital services and software development company serving businesses that need a professional digital presence, custom software, better customer experiences, and digital growth.
+
+The company provides digital execution across design, development, marketing, and ongoing support.
+
+Its target customers include:
+
+- Small and medium-sized businesses.
+- Startups and entrepreneurs.
+- Local businesses that need their first professional website.
+- Businesses looking to redesign an outdated website.
+- E-commerce businesses.
+- Companies requiring mobile applications.
+- Businesses looking for UI/UX design.
+- Businesses investing in SEO and digital marketing.
+- Agencies and companies that need additional development or design capacity.
+
+The website should communicate four central ideas:
+
+1. Professional digital products should be accessible to businesses of different sizes.
+2. Design must support usability, credibility, and business outcomes.
+3. Development should prioritise reliability, performance, and scalability.
+4. Clients should have a clear path from initial enquiry to delivery and ongoing support.
+
+The brand should feel modern, capable, transparent, commercially focused, and technically sophisticated.
+
+Avoid exaggerated promises, fake awards, fabricated client logos, unsupported performance claims, and generic marketing statements that could belong to any agency.
+
+Use the existing company's real content, evidence, and positioning wherever available.
+
+---
+
+## 4. VISUAL DIRECTION: LIQUID DESIGN AND IMMERSIVE EXPERIENCES
+
+Create a distinctive design system inspired by the best aspects of modern digital product websites, sophisticated creative studios, premium SaaS brands, and experimental interactive web experiences.
+
+The final result must be visually impressive without becoming difficult to navigate.
+
+### A. Overall visual identity
+
+Use a premium, contemporary aesthetic featuring:
+
+- Deep charcoal, near-black, or sophisticated dark backgrounds in selected sections.
+- Clean white or warm off-white backgrounds in light sections.
+- Carefully controlled electric blue, violet, cyan, or other complementary accent colours.
+- Subtle gradients that create depth rather than visual noise.
+- Large editorial typography.
+- Generous whitespace.
+- Strong visual hierarchy.
+- Refined borders and separators.
+- Rounded surfaces used consistently.
+- Carefully composed image layouts.
+- Subtle grain or texture where appropriate.
+- Sophisticated contrast between text, surfaces, and backgrounds.
+- High-quality transitions between sections.
+
+Choose a cohesive palette and use it consistently across every page.
+
+Do not use every available gradient colour simultaneously.
+
+The design should feel intentional, not like a collection of unrelated visual effects.
+
+### B. Liquid glass effects
+
+Implement carefully controlled liquid glass treatments for selected interface elements.
+
+Possible applications include:
+
+- Floating navigation surfaces.
+- Dropdown menus.
+- Small floating information panels.
+- Selected call-to-action buttons.
+- Interactive cards.
+- Decorative background elements.
+- Service category indicators.
+- Carefully chosen hero components.
+
+Use CSS properties such as backdrop-filter, translucent backgrounds, subtle borders, layered shadows, and gradient overlays where appropriate.
+
+Create a convincing sense of translucent depth.
+
+Do not apply glass effects to every element. Excessive glassmorphism reduces readability and makes websites look repetitive.
+
+Provide fallback styling for browsers that do not support backdrop-filter.
+
+Ensure text remains readable against every translucent surface.
+
+### C. Fluid backgrounds
+
+Create a distinctive hero background using a combination of:
+
+- Large blurred gradient forms.
+- Slowly moving gradient fields.
+- Soft ambient lighting.
+- Subtle animated mesh gradients.
+- Controlled depth effects.
+- Gentle parallax movement.
+- Fine decorative lines or geometric structures where appropriate.
+
+Animations should be smooth and restrained.
+
+Avoid distracting flashing lights, excessive movement, and CPU-intensive full-screen effects.
+
+### D. Liquid interactions
+
+Introduce a small number of high-quality interactions, such as:
+
+- Buttons with subtle fluid hover transitions.
+- Cards with gentle perspective movement.
+- Cursor-responsive lighting on desktop where appropriate.
+- Smooth transitions between interactive states.
+- Animated gradient borders on selected elements.
+- Subtle magnetic-style button movement on desktop.
+- Smooth reveal animations when content enters the viewport.
+- Fluid transitions for navigation dropdowns.
+- Animated number counters for verified company statistics.
+
+All interactive effects must be implemented with real HTML, CSS, and JavaScript.
+
+Do not make controls appear interactive if they do not perform an action.
+
+Ensure essential information remains visible even when JavaScript is disabled or animations fail.
+
+### E. Typography
+
+Use a professional type system with a contemporary sans-serif typeface.
+
+Suitable options include Inter, Manrope, or another high-quality, legible font.
+
+Use a consistent type scale for:
+
+- Hero headlines.
+- Page titles.
+- Section headings.
+- Card headings.
+- Body paragraphs.
+- Labels.
+- Navigation.
+- Buttons.
+- Legal document text.
+
+Hero headlines should be visually prominent without becoming excessively large on smaller devices.
+
+Maintain comfortable line lengths and readable paragraph widths.
+
+### F. Visual consistency
+
+Create a unified design system with reusable:
+
+- Buttons.
+- Navigation components.
+- Dropdown menus.
+- Cards.
+- Service layouts.
+- Pricing tables.
+- Testimonials.
+- Process timelines.
+- Contact forms.
+- FAQ components.
+- Section headings.
+- Footer layouts.
+- Breadcrumbs.
+- Legal document layouts.
+
+Every page must feel like part of the same website.
+
+However, individual service pages should have enough visual variation to communicate their respective subjects instead of repeating an identical template with different text.
+
+---
+
+## 5. HOMEPAGE: COMPLETE REDESIGN
+
+The homepage must establish the company's identity, explain its services, demonstrate credibility, communicate pricing, and guide visitors towards contacting the company.
+
+Use the existing homepage content as the source of truth and preserve every important existing section.
+
+The following structure is the intended design direction. Adapt it to the actual content and functionality discovered during the website audit.
+
+### Section 1: Navigation
+
+Build a premium, responsive navigation system.
+
+Include:
+
+- UseCodify logo.
+- Home.
+- About.
+- Services dropdown.
+- Pricing.
+- Contact.
+- A prominent primary call-to-action button.
+
+The services dropdown should include every applicable service discovered during the audit.
+
+On desktop, use a refined dropdown or mega-menu with clear service names and short descriptions.
+
+On mobile, use an accessible navigation drawer or collapsible menu with working touch interactions.
+
+The navigation should have a sophisticated initial appearance and may transition to a slightly more opaque or compact surface as the visitor scrolls.
+
+Ensure the navigation does not obscure page content or interfere with anchor links.
+
+Use real navigation links, not placeholder anchors.
+
+### Section 2: Hero
+
+Create an immersive hero section that immediately communicates what UseCodify does.
+
+The hero should contain:
+
+- A strong, concise headline.
+- A supporting paragraph explaining the company's digital services.
+- A primary CTA to discuss a project.
+- A secondary CTA to explore services.
+- A distinctive liquid visual composition.
+- Carefully selected supporting visual elements.
+- Subtle ambient animation.
+- An appropriate visual indicator that additional content exists below.
+
+Use the existing homepage messaging as the starting point.
+
+The headline should communicate that UseCodify helps businesses build effective digital products and grow their online presence.
+
+Avoid generic phrases such as "Welcome to our website."
+
+Make the first viewport visually memorable.
+
+Do not let decorative visuals overwhelm the headline or CTA.
+
+On mobile, rearrange the hero into a clear, compact layout with no horizontal overflow.
+
+### Section 3: Introduction and company positioning
+
+Retain the existing introduction explaining the company's approach to digital products, design, development, and business growth.
+
+Present this information in a visually engaging layout with strong typography and restrained motion.
+
+### Section 4: Services overview
+
+Include every service currently presented on the existing homepage.
+
+The current site identifies services including:
+
+1. Web Development & Design.
+2. E-Commerce Solutions.
+3. Mobile App Development.
+4. UI/UX Development.
+5. SEO Services.
+6. Teams On Demand.
+7. Web Maintenance.
+8. Digital Marketing.
+9. Consulting & Strategy.
+
+Verify these against the live website and include any additional services discovered.
+
+Each service should have:
+
+- Its correct name.
+- A concise description based on existing content.
+- A relevant icon or visual.
+- A working link to its detailed service page.
+- A subtle, polished hover interaction.
+- Clear visual separation from other services.
+
+Use a carefully composed responsive grid or an alternative layout that improves readability.
+
+Do not make every card look identical if a more varied composition would create a stronger result.
+
+### Section 5: About UseCodify
+
+Retain the existing company introduction and explain how the company works with clients.
+
+Create a strong visual transition from the services section into the company story.
+
+Include a clear link to the complete About page.
+
+### Section 6: Company statistics
+
+The current homepage presents the following figures:
+
+- 2+ years of operation.
+- 70+ projects delivered.
+- 10+ specialists.
+- 98% satisfaction.
+
+Verify these figures against the current website and preserve them if they remain the company's intended published claims.
+
+Do not increase or modify them without evidence.
+
+Present the statistics in a sophisticated layout with restrained counter animations.
+
+The final values must remain readable and accurate if animations are disabled.
+
+### Section 7: Testimonials
+
+Preserve the existing customer testimonials, including their wording and attribution.
+
+The currently indexed homepage includes testimonials attributed to:
+
+- Dr. James O'Kelly.
+- Eden Gardern Team.
+- Daniel.
+
+Verify the spelling, exact testimonial text, and attribution on the live site before publication.
+
+Do not invent additional testimonials or customer identities.
+
+Create a polished testimonial layout that supports both desktop and mobile screens.
+
+If a carousel is used, provide accessible controls, clear indicators, and sensible touch interactions.
+
+Avoid autoplay that interferes with reading.
+
+### Section 8: Pricing plans
+
+Display the company's current India-focused pricing plans.
+
+The currently indexed homepage lists:
+
+**KickStart — ₹5,999**
+
+Positioning: A simple, fast, budget-friendly website package.
+
+Published features include:
+
+- Three pages: Home, About, and Contact.
+- Mobile-friendly, theme-based design.
+- WhatsApp chat and contact form.
+- Domain using .co.in or .in, hosting, and SSL for one year.
+- One month of free maintenance.
+- 72-hour turnaround time.
+- 24/7 support.
+- Renewal at ₹2,000 per year.
+- Edits handled through WhatsApp within 24 hours.
+
+The current indexed listing marks basic SEO setup as excluded.
+
+**Business — ₹7,999**
+
+Positioning: A professional trust-building website for small businesses.
+
+Published features include:
+
+- Six-page package, with Home, About, Services, Gallery, and Contact listed as page types.
+- Mobile-friendly, theme-based design.
+- WhatsApp chat and contact form.
+- Basic SEO setup and social media links.
+- Domain, hosting, and SSL for one year.
+- One month of free maintenance.
+- 72-hour turnaround time.
+- 24/7 support.
+- One business email.
+- Renewal at ₹2,999 per year.
+- Website edits handled by UseCodify without client admin access.
+
+The existing listing's page count and enumerated page types may not match exactly. Preserve the published information while flagging the discrepancy for verification.
+
+**Growth — ₹9,999**
+
+Positioning: An editable website with full CMS access.
+
+Published features include:
+
+- Ten editable pages.
+- CMS access.
+- Mobile-friendly, theme-based design.
+- WhatsApp chat and an auto-reply contact form.
+- Basic SEO setup and social media links.
+- Domain using .co.in or .in, hosting, and SSL for one year.
+- Google Business Profile setup.
+- 72-hour turnaround time.
+- 24/7 support.
+- Two business emails.
+- Renewal at ₹3,499 per year.
+- Admin CMS access and blog setup.
+
+Verify the exact current wording, inclusions, exclusions, and pricing on the live website before publication.
+
+### Pricing presentation
+
+Create attractive, professional pricing cards with clear plan names, prices, benefits, and CTA buttons.
+
+Use comparison rows or visual indicators to distinguish included features from excluded features.
+
+Make the differences between the plans immediately understandable.
+
+Do not hide important conditions in tiny text.
+
+Clearly distinguish one-time setup pricing from annual renewal pricing.
+
+Where a domain, feature, or service is subject to a condition, retain the relevant qualification.
+
+Every pricing CTA must lead to a working contact or enquiry route.
+
+Do not add checkout or payment functionality unless an existing working integration is identified and verified.
+
+### Section 9: Working process
+
+Present the company's existing project workflow.
+
+The About page describes the following four steps:
+
+1. Understanding Your Goals.
+2. Planning the Right Approach.
+3. Design, Build and Refine.
+4. Launch and Continued Support.
+
+Preserve the existing explanations for these steps.
+
+Create an elegant timeline or connected sequence with subtle scroll-triggered animation.
+
+On mobile, use a vertical layout.
+
+### Section 10: Final call to action
+
+Create a strong conversion-focused section encouraging visitors to discuss their project.
+
+Use a short headline, concise supporting copy, and a prominent contact CTA.
+
+The design should feel like a natural continuation of the page rather than an unrelated promotional banner.
+
+### Section 11: Footer
+
+Build a comprehensive footer containing:
+
+- UseCodify branding.
+- A concise company description.
+- All relevant service links.
+- About link.
+- Pricing link.
+- Contact link.
+- Privacy Policy link.
+- Terms of Service link.
+- Refund Policy link.
+- Verified contact information.
+- Verified company information where appropriate.
+- Relevant social links if they are published by the company.
+- Copyright notice.
+
+Ensure every link works and that the footer appears consistently throughout the website.
+
+Do not include broken links, fabricated social accounts, or unverified company details.
+
+---
+
+## 6. ABOUT PAGE
+
+Rebuild the existing About page as a complete, standalone page.
+
+Existing URL to inspect:
+
+https://usecodify.in/about
+
+Preserve the substantive content of the existing company story, including:
+
+- The company's founding vision.
+- How the company started.
+- How the company grew.
+- Where the company is heading.
+- Its approach to digital products.
+- Its emphasis on practical solutions and measurable business value.
+- Its working process.
+- Its closing call to action.
+
+The existing About page describes a journey from helping small businesses establish an online presence to supporting startups, agencies, and brands with broader digital execution.
+
+Preserve that narrative without inventing new historical events.
+
+### Design direction
+
+Create an editorial-style page with:
+
+- A distinctive hero.
+- A clear company introduction.
+- A visually engaging story section.
+- A structured presentation of the company's development.
+- A four-stage working process.
+- A final CTA.
+
+Use sophisticated typography, carefully composed visual blocks, and subtle scroll animations.
+
+Avoid generic corporate stock photography where it adds no value.
+
+Make the page visually distinct from the homepage while maintaining the same design system.
+
+---
+
+## 7. INDIVIDUAL SERVICE PAGES
+
+Every service page currently available on the existing website must be rebuilt as a complete, standalone page.
+
+Do not combine every service into a single page.
+
+Do not create a service page containing only a heading, a paragraph, and a contact button.
+
+Each page must preserve its existing substantive content, process steps, benefits, calls to action, and relevant internal links.
+
+Inspect the exact current URLs and retain them wherever practical.
+
+The following pages are known starting points for the audit. Verify their availability, URL variants, and canonical forms before implementation.
+
+### A. Web Development & Design
+
+Find the exact existing URL from the navigation and internal links.
+
+Include the current service description and all existing details about website design, responsive development, usability, performance, conversion, and relevant development capabilities.
+
+Explain the service through clear, visually engaging sections based on the source content.
+
+Include the existing process steps and their explanations.
+
+Link to the appropriate pricing and contact pages.
+
+### B. E-Commerce Solutions
+
+Inspect the existing e-commerce service page and preserve all its content.
+
+Include the company's actual information about online stores, payment integrations, inventory management, customer experience, and relevant e-commerce capabilities where these are supported by the existing page.
+
+Do not invent platform partnerships, payment certifications, or unsupported integrations.
+
+Present the information through a polished, commerce-oriented visual layout.
+
+Include relevant calls to action.
+
+### C. Mobile App Development
+
+Known existing URL:
+
+https://usecodify.in/mobile-development
+
+Preserve the page's content concerning:
+
+- Custom app solutions.
+- Engaging user experiences.
+- Scalable architecture.
+- Discovery and strategy.
+- Design and prototyping.
+- Development and testing.
+- Launch and support.
+
+Retain the actual explanations of these topics from the current page.
+
+Build a modern mobile-product visual composition, using device mockups or custom interface illustrations where appropriate.
+
+Make sure these visuals do not replace important textual content.
+
+### D. UI/UX Design
+
+Known existing URL:
+
+https://usecodify.in/ui-ux-design
+
+Preserve the existing information about:
+
+- User-centered design.
+- Visual consistency and branding.
+- Usability and interaction.
+- Research and discovery.
+- Wireframing and prototyping.
+- UI design and refinement.
+- Testing and handoff.
+
+Retain the original process explanations and all additional relevant content found during the audit.
+
+Create a visually sophisticated page with interface mockups, design-system elements, interactive examples, and polished transitions.
+
+Use actual functional demonstrations where practical rather than purely decorative interface elements.
+
+### E. SEO Services
+
+Known existing URL:
+
+https://usecodify.in/seo-services
+
+Preserve the existing content about:
+
+- Keyword and market research.
+- On-page optimisation.
+- Authority and link building.
+- Tracking and continuous improvement.
+
+Retain the current page's process and supporting descriptions.
+
+Create a modern search-performance visual direction using restrained data visualisations or illustrative search-result interfaces.
+
+Do not fabricate ranking improvements, traffic statistics, client case studies, or guaranteed search positions.
+
+### F. Teams On Demand
+
+Known existing URL:
+
+https://usecodify.in/teams-on-demand
+
+Preserve the content concerning:
+
+- Access to diverse expertise.
+- Seamless integration.
+- Scalable and cost-efficient resourcing.
+- Understanding client needs.
+- Assembling the right team.
+- Onboarding and collaboration.
+- Continuous support and scaling.
+
+Create a sophisticated visual layout communicating flexibility, collaboration, and access to specialist capabilities.
+
+Do not invent specific staffing guarantees or contractual terms.
+
+### G. Website Maintenance
+
+Locate the exact existing page and inspect its full content.
+
+Preserve all published information about the company's maintenance services, updates, security, technical support, website reliability, and any actual maintenance packages or inclusions.
+
+Do not invent service-level agreements, backup frequencies, uptime guarantees, security certifications, or response times.
+
+Make the page useful to businesses looking for reliable ongoing website support.
+
+### H. Digital Marketing
+
+Known existing URL:
+
+https://usecodify.in/digital-marketing
+
+Preserve the existing information about:
+
+- Targeted campaigns.
+- Multi-channel presence.
+- Measurable results.
+- Research and strategy.
+- Content and campaign creation.
+- Execution and optimisation.
+- Reporting and growth.
+
+Retain the actual process explanations and any additional content discovered.
+
+Use a contemporary campaign-oriented visual design with appropriate charts, content previews, or channel illustrations.
+
+Do not fabricate advertising results or marketing performance data.
+
+### I. Consulting & Strategy
+
+Locate the exact existing page and preserve its content.
+
+Include all published details about business guidance, digital roadmaps, strategic planning, project discovery, and relevant consulting services.
+
+Present the information in a polished, professional format.
+
+Include the actual process and calls to action from the existing page.
+
+### J. Additional service pages
+
+The list above is not exhaustive.
+
+If the website contains additional service pages, rebuild each of them individually.
+
+If a service exists in the navigation but its target URL is broken or unavailable, investigate the intended destination before implementing it.
+
+Do not silently omit services or create fake URLs.
+
+---
+
+## 8. PRICING PAGE
+
+Create a complete pricing page that presents the company's India-focused website packages.
+
+Inspect the existing website for a dedicated pricing page and preserve its URL if one exists.
+
+If pricing currently appears only on the homepage, you may create a dedicated pricing page and link to it from the navigation, but do not remove the original homepage pricing section.
+
+The page must include the complete verified information for:
+
+- KickStart.
+- Business.
+- Growth.
+
+Include all relevant features, exclusions, renewal charges, maintenance conditions, turnaround times, hosting and domain inclusions, and contact requirements.
+
+Make pricing comparison easy on desktop and mobile.
+
+Do not convert INR prices into other currencies or mix UK pricing into the India pricing page without a clearly documented business requirement.
+
+Do not create additional paid tiers unless they exist on the current website or are explicitly authorised.
+
+Every enquiry CTA must work.
+
+---
+
+## 9. CONTACT PAGE
+
+Known existing URL:
+
+https://usecodify.in/contact.html
+
+Preserve the existing contact page's substantive content and implement a functional contact experience.
+
+The currently indexed page contains a contact form with:
+
+- Full Name.
+- Email.
+- Phone.
+- Service selection.
+- Message.
+- Send Message button.
+
+The page also states that enquiries will be answered within 24 hours and provides information about live chat and email support.
+
+Verify all current text and operating hours before publishing.
+
+### Contact information
+
+The existing website currently displays the following office address in several places:
+
+Ground Floor, Primus Building, Door No. SP–7A, Guindy Industrial Estate, SIDCO Industrial Estate, Guindy, Chennai, Tamil Nadu, 600032, India.
+
+However, the company's registered address has also been published elsewhere as:
+
+49/21A, Salai Street, Ayyampettai, Papanasam, Thanjavur, Tamil Nadu 614201, India.
+
+These addresses may serve different purposes.
+
+Do not assume that the registered address and the operating office address are interchangeable.
+
+Use the current, verified operating-office address for the contact page and label any registered address accurately if it needs to be displayed.
+
+Primary email:
+
+hello@usecodify.com
+
+Do not publish fabricated phone numbers or unverified contact details.
+
+### Contact form requirements
+
+The contact form must have:
+
+- Properly labelled fields.
+- Required-field validation.
+- Email format validation.
+- Phone validation appropriate to the selected country.
+- A service dropdown populated with the actual available services.
+- A clear submit button.
+- Loading feedback.
+- Success and error messages.
+- Keyboard accessibility.
+- Spam protection where appropriate.
+
+Most importantly, the form must actually submit enquiries.
+
+Do not build a form that only displays a fake success message.
+
+A static HTML website cannot securely deliver emails by itself. If a backend or form service is needed, configure the project to support a suitable endpoint or integration.
+
+If no working endpoint or credentials are available, provide a clearly documented configuration point and an honest fallback such as a prefilled email link or WhatsApp enquiry.
+
+Do not pretend that an enquiry has been delivered if it has not.
+
+### WhatsApp integration
+
+If the existing website provides a verified WhatsApp contact number, preserve it and implement the appropriate integration.
+
+If no verified WhatsApp number can be established, do not invent one.
+
+The interface may offer a WhatsApp CTA that opens a configured contact destination, but the number must be supplied and verified before publication.
+
+### Contact design
+
+Create a premium contact experience with:
+
+- A strong page heading.
+- Concise supporting copy.
+- A clean form layout.
+- Contact information cards.
+- Clear service selection.
+- Appropriate CTA hierarchy.
+- Responsive spacing.
+- Accessible success and error states.
+
+---
+
+## 10. LEGAL PAGES
+
+Legal pages are part of the website and must not be omitted.
+
+Preserve the actual legal content from the existing website, including all sections, dates, conditions, definitions, and relevant disclaimers.
+
+Do not replace legal documents with short generic summaries.
+
+### A. Terms of Service
+
+Known existing URL:
+
+https://usecodify.in/terms-of-service
+
+The currently indexed page is titled "Terms of Service & Data Processing Addendum."
+
+It contains information relating to the services provided by UseCodify Ltd and UseCodify India (OPC) Private Limited.
+
+The indexed content includes:
+
+- Introduction and acceptance.
+- Covered legal entities.
+- Services.
+- User responsibilities.
+- Payments and refunds.
+- Intellectual property.
+- Privacy and data processing.
+- Types of personal data.
+- Subprocessors.
+- Security measures.
+- International transfers.
+- Data subject rights.
+- Breach notification.
+- Data return and deletion.
+- Third-party services.
+- Limitation of liability.
+- Termination.
+- Governing law.
+- Contact information.
+
+Inspect and preserve the complete current document, not just the headings listed here.
+
+### Important legal accuracy requirement
+
+The existing legal page contains information about both the UK and Indian entities.
+
+Do not automatically reproduce outdated UK company information as if it were current.
+
+Verify which legal entity details, addresses, and contractual terms are intended to remain published.
+
+Preserve legally relevant distinctions between the entities and do not invent replacement clauses.
+
+If information cannot be verified, flag it for the company to review before publication.
+
+The redesign must not change the legal meaning of the document.
+
+### B. Refund Policy
+
+Known existing URL:
+
+https://usecodify.in/refund-policy
+
+The existing page includes information about:
+
+- Refund principles.
+- Full upfront payment.
+- The 40/60 payment structure.
+- Deposit refund conditions.
+- Final payment deadlines.
+- Project cancellation.
+- Revision rounds.
+- Revision limitations.
+- Cancellation by UseCodify.
+- Digital deliverables.
+- Refund request procedures.
+
+Preserve all applicable clauses, timelines, percentages, exceptions, and conditions from the current version.
+
+Do not shorten the policy or rewrite its contractual meaning.
+
+The currently indexed version identifies an effective date of 13 May 2025 and a last-updated date of 16 August 2025. Verify these dates against the live page.
+
+If the contact email or legal entity information is inconsistent or outdated, flag it for confirmation instead of inventing an answer.
+
+### C. Privacy Policy
+
+Locate the current Privacy Policy through the website footer, sitemap, and internal links.
+
+Preserve the complete existing policy, including its sections, dates, data-handling disclosures, rights, retention information, and contact details.
+
+Do not invent a privacy policy and present it as the original.
+
+If the existing policy is unavailable, document that fact and request an approved policy rather than publishing fabricated legal text.
+
+### D. Other legal pages
+
+Inspect the complete footer and website navigation for additional legal documents.
+
+Rebuild every existing first-party legal page that is part of the public website.
+
+Preserve all original substantive content.
+
+### Legal page design
+
+Legal pages should use a clean, readable layout with:
+
+- A clear page title.
+- Publication or revision date where applicable.
+- A contents list when useful.
+- Proper heading hierarchy.
+- Readable paragraph widths.
+- Numbered clauses.
+- Accessible links.
+- Consistent typography.
+- Appropriate mobile spacing.
+
+Use restrained styling rather than heavy animations.
+
+Legal content must remain easy to read, select, copy, and print.
+
+---
+
+## 11. COMPLETE PAGE INVENTORY AND ROUTING
+
+Create a route inventory from the existing website before implementation.
+
+At minimum, investigate and account for:
+
+1. Homepage.
+2. About.
+3. Web Development & Design.
+4. E-Commerce Solutions.
+5. Mobile App Development.
+6. UI/UX Design.
+7. SEO Services.
+8. Teams On Demand.
+9. Website Maintenance.
+10. Digital Marketing.
+11. Consulting & Strategy.
+12. Pricing, if an existing page exists.
+13. Contact.
+14. Privacy Policy.
+15. Terms of Service.
+16. Refund Policy.
+17. Every additional first-party page discovered during the audit.
+
+Use the original URLs wherever practical.
+
+Preserve the original path structure when rebuilding existing pages, including relevant `.html` paths.
+
+If a route must change, configure an appropriate redirect where the hosting environment supports it.
+
+Ensure internal navigation does not point to obsolete URLs.
+
+Every public page must have a unique, descriptive title and an appropriate meta description.
+
+Do not create separate URLs for duplicate versions of the same page unless necessary for backward compatibility.
+
+Where duplicate URL variants exist, choose the correct canonical URL and handle alternatives appropriately.
+
+### Direct URL access
+
+A visitor must be able to open an individual page directly rather than having to visit the homepage first.
+
+Test deep links, page refreshes, navigation, and browser back/forward behaviour.
+
+Do not rely on a client-side router that breaks when the visitor refreshes a nested route on a static server.
+
+---
+
+## 12. TECHNICAL ARCHITECTURE
+
+The website must be deployable on a conventional web server that can serve static HTML, CSS, JavaScript, images, fonts, and other static assets.
+
+Prefer a lightweight architecture with excellent compatibility.
+
+### Preferred implementation
+
+Use:
+
+- HTML5.
+- Modern CSS.
+- Vanilla JavaScript where practical.
+- Modular, reusable components where appropriate.
+- A build process only if it produces a complete static output.
+
+You may use a framework if it materially improves the result, but the final build must be exportable as a static website.
+
+If you use React, Vite, TypeScript, or another build system, include all required source files, package configuration, and build instructions.
+
+The production output must include a working `index.html` and every asset required to render the website.
+
+Do not deliver only a development environment that requires a running application server.
+
+### Recommended structure
+
+Use a clear project structure similar to:
+
+usecodify-redesign/
+│
+├── index.html
+├── about.html
+├── pricing.html
+├── contact.html
+├── privacy-policy.html
+├── terms-of-service.html
+├── refund-policy.html
+│
+├── services/
+│   ├── web-development.html
+│   ├── ecommerce.html
+│   ├── mobile-development.html
+│   ├── ui-ux-design.html
+│   ├── seo-services.html
+│   ├── teams-on-demand.html
+│   ├── website-maintenance.html
+│   ├── digital-marketing.html
+│   └── consulting-strategy.html
+│
+├── assets/
+│   ├── css/
+│   │   ├── styles.css
+│   │   ├── animations.css
+│   │   └── responsive.css
+│   │
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── navigation.js
+│   │   ├── animations.js
+│   │   └── forms.js
+│   │
+│   ├── images/
+│   ├── icons/
+│   └── fonts/
+│
+├── robots.txt
+├── sitemap.xml
+├── site.webmanifest
+└── README.md
+
+This is an illustrative structure, not a rigid requirement.
+
+Adapt it to the actual page inventory.
+
+If the website contains more pages, create the additional files.
+
+If using a component-based build system, organise the source code sensibly and generate a production directory containing all the static files required for deployment.
+
+Do not create empty placeholder files for pages that are supposed to contain real content.
+
+### Entry point
+
+The root `index.html` must load the homepage correctly.
+
+Relative asset paths must work after uploading the site to a conventional web server.
+
+Do not hard-code development-machine paths.
+
+Avoid dependencies on localhost URLs.
+
+Document any server configuration that is necessary for deployment.
+
+---
+
+## 13. RESPONSIVE DESIGN FOR EVERY DEVICE
+
+The entire website must work on:
+
+- Small mobile phones.
+- Large mobile phones.
+- Tablets.
+- Small laptops.
+- Standard laptops.
+- Desktop monitors.
+- Large desktop displays.
+- High-resolution screens.
+
+Do not treat responsive design as a final cosmetic adjustment.
+
+Design every page with mobile usability in mind from the beginning.
+
+### Mobile requirements
+
+On small screens:
+
+- Navigation must work using touch.
+- Menus must open and close reliably.
+- Text must remain readable.
+- Hero headlines must wrap correctly.
+- Buttons must be easy to tap.
+- Pricing cards must fit the viewport.
+- Pricing comparisons must remain usable.
+- Forms must have comfortable input sizes.
+- Images must scale without distortion.
+- Cards must not become excessively narrow.
+- Legal documents must remain readable.
+- Animations must not cause horizontal overflow.
+- Sticky elements must not cover important content.
+- Contact controls must not obscure the page.
+- Footer columns must stack cleanly.
+
+Never solve mobile layout problems by shrinking all content until it fits.
+
+Reorganise the layout appropriately.
+
+### Breakpoint strategy
+
+Use content-driven responsive breakpoints.
+
+A reasonable starting point is:
+
+- Small phones: 320–374 px.
+- Standard phones: 375–479 px.
+- Large phones: 480–767 px.
+- Tablets: 768–1023 px.
+- Laptops: 1024–1439 px.
+- Large desktops: 1440 px and above.
+
+These are guidelines, not rigid limits.
+
+Use fluid sizing through CSS Grid, Flexbox, clamp(), minmax(), and responsive image sizing where appropriate.
+
+Test at widths of 320, 360, 375, 390, 430, 768, 1024, 1280, 1440, and 1920 pixels.
+
+There must be no unintended horizontal scrolling.
+
+---
+
+## 14. ANIMATION AND INTERACTION ENGINE
+
+Build a coherent motion system rather than adding unrelated animations to every element.
+
+### Required motion features
+
+Where appropriate, implement:
+
+- Page-load entrance transitions.
+- Smooth section reveals.
+- Staggered card animations.
+- Subtle parallax.
+- Navigation transitions.
+- Button hover animations.
+- Animated background gradients.
+- Refined accordion transitions.
+- Responsive mobile menu transitions.
+- Interactive service cards.
+- Subtle counter animations.
+- Fluid transitions between visual states.
+
+Use CSS transitions and keyframes for simple effects.
+
+Use IntersectionObserver for viewport-based animations.
+
+Use requestAnimationFrame for custom continuous animation when appropriate.
+
+Use a specialist animation library only if it materially improves the result and can be included and deployed reliably.
+
+Avoid loading multiple large animation libraries unnecessarily.
+
+### Performance requirements
+
+Animations must not make the site feel slow.
+
+Prefer transform and opacity animations over repeatedly animating expensive layout properties.
+
+Avoid unnecessarily animating large full-screen filters.
+
+Do not continuously recalculate layout on every scroll event.
+
+Avoid excessive DOM elements and expensive mouse-tracking effects.
+
+Do not make the page wait for decorative animations before displaying important content.
+
+### Accessibility requirements
+
+Respect the prefers-reduced-motion media query.
+
+When reduced motion is enabled:
+
+- Disable unnecessary parallax.
+- Reduce or remove decorative movement.
+- Avoid large spatial transitions.
+- Keep content immediately accessible.
+- Preserve all essential functionality.
+
+All interactions must work without requiring a mouse.
+
+---
+
+## 15. FUNCTIONAL REQUIREMENTS
+
+The website must be genuinely functional.
+
+Implement and test the following:
+
+### Navigation
+
+- Working navigation links.
+- Working dropdowns.
+- Working mobile navigation.
+- Working footer links.
+- Correct active-page indication where appropriate.
+- Correct browser history behaviour.
+- Functional back and forward navigation.
+
+### Buttons
+
+Every button must have a meaningful action.
+
+Examples include:
+
+- Contact buttons linking to the contact page.
+- Service buttons linking to their respective service pages.
+- Pricing CTAs opening a relevant enquiry route.
+- Email buttons opening the correct email destination.
+- WhatsApp buttons opening a verified contact destination.
+- Back-to-top controls scrolling to the page top.
+- Accordions expanding and collapsing correctly.
+
+Do not use `href="#"` as a substitute for implementing functionality.
+
+### Forms
+
+Implement validation, accessible error messages, submission feedback, and a real delivery mechanism where credentials and infrastructure are available.
+
+If an external form service or backend is required, document its configuration.
+
+Never embed private API keys or email service secrets in browser JavaScript.
+
+### Other interactions
+
+Test every:
+
+- Dropdown.
+- Accordion.
+- Carousel.
+- Navigation drawer.
+- Modal.
+- Tooltip.
+- Floating CTA.
+- Scroll-triggered interaction.
+- Form submission state.
+
+Remove non-functional demo interactions before delivery.
+
+---
+
+## 16. SEO AND SEARCH VISIBILITY
+
+Preserve the existing website's discoverability while improving its technical SEO.
+
+For every page, implement:
+
+- A unique title tag.
+- A relevant meta description.
+- A single clear primary heading.
+- Proper heading hierarchy.
+- Semantic HTML.
+- Descriptive image alt text.
+- Canonical URLs.
+- Appropriate internal links.
+- Open Graph metadata where relevant.
+- Appropriate social-sharing metadata.
+- A logical URL structure.
+- Crawlable navigation.
+- An XML sitemap.
+- A robots.txt file.
+- Correct language metadata.
+
+Use the actual canonical domain:
+
+https://usecodify.in/
+
+Do not generate metadata that describes a different company or market.
+
+Use Indian pricing and contact information where appropriate.
+
+### Structured data
+
+Implement appropriate structured data only when supported by verified content.
+
+Possible schema types include:
+
+- Organization.
+- ProfessionalService or an appropriate business type.
+- WebSite.
+- Service.
+- BreadcrumbList.
+
+Use accurate company details.
+
+Do not invent review ratings, customer reviews, opening hours, telephone numbers, or business locations.
+
+### Existing URL preservation
+
+Preserve existing URLs wherever possible.
+
+If URL changes are necessary, provide redirects where supported.
+
+Avoid creating duplicate pages that compete in search results.
+
+Do not block important assets or pages from search engines.
+
+---
+
+## 17. PERFORMANCE AND CORE WEB VITALS
+
+The finished website must be visually rich but technically efficient.
+
+Prioritise:
+
+- Fast initial rendering.
+- Low JavaScript overhead.
+- Optimised images.
+- Efficient font loading.
+- Minimal layout shifts.
+- Smooth scrolling.
+- Responsive image delivery.
+- Reduced unnecessary network requests.
+- Sensible caching.
+- Efficient animations.
+
+Use modern image formats such as WebP or AVIF when appropriate, with suitable fallbacks where necessary.
+
+Specify image dimensions or aspect ratios to reduce layout shifts.
+
+Lazy-load below-the-fold images when appropriate.
+
+Do not lazy-load the primary hero image if doing so would delay the main visual content.
+
+Use font-display strategies that avoid invisible text for extended periods.
+
+Do not load large videos, 3D libraries, or heavy background assets unless they materially improve the experience.
+
+If video is used, provide a lightweight poster and a sensible mobile fallback.
+
+Avoid embedding a large external video merely to create an animated background.
+
+### Performance target
+
+Aim for a Lighthouse performance score of 90 or above on representative production pages, where achievable.
+
+Also aim for strong accessibility, best-practices, and SEO scores.
+
+Treat these as targets to verify, not as scores to claim without testing.
+
+Pay particular attention to:
+
+- Largest Contentful Paint.
+- Interaction to Next Paint.
+- Cumulative Layout Shift.
+
+Do not sacrifice accessibility or functional completeness to achieve a cosmetic benchmark.
+
+---
+
+## 18. ACCESSIBILITY
+
+Build the website according to modern accessibility best practices.
+
+Include:
+
+- Semantic HTML.
+- Keyboard-accessible navigation.
+- Visible focus indicators.
+- Proper form labels.
+- Meaningful button text.
+- Accessible dropdown behaviour.
+- Sufficient colour contrast.
+- Descriptive link text.
+- Appropriate ARIA attributes where necessary.
+- Reduced-motion support.
+- Accessible error messages.
+- Logical heading order.
+- Screen-reader-friendly interactive components.
+
+Do not use ARIA as a replacement for correct semantic HTML.
+
+Ensure the mobile navigation can be opened, navigated, and closed using a keyboard.
+
+Ensure decorative images do not create unnecessary screen-reader noise.
+
+Aim for WCAG 2.2 AA compliance and test representative flows.
+
+---
+
+## 19. IMAGES, BRAND ASSETS, AND VISUAL CONTENT
+
+Inspect the existing website for the company's actual logo, images, graphics, and brand assets.
+
+Preserve the official brand identity wherever appropriate.
+
+If an existing logo asset is available, use it instead of recreating the logo inaccurately.
+
+If new illustrations are required, use original or properly licensed assets.
+
+Do not hotlink to images from unrelated websites.
+
+Do not rely on temporary image URLs that may stop working.
+
+Do not use generic placeholder images in the final production version.
+
+If a required image cannot be obtained, create a suitable original illustration or clearly identify the asset that needs to be supplied.
+
+Ensure images have appropriate alt text when meaningful.
+
+Use decorative images with empty alt attributes where appropriate.
+
+Avoid using unrelated stock photography simply to fill empty sections.
+
+---
+
+## 20. COMPANY DETAILS AND CONTENT ACCURACY
+
+Use the correct company identity:
+
+UseCodify India (OPC) Private Limited.
+
+UseCodify is the public-facing brand.
+
+Use the current, verified company details from the existing website and approved company information.
+
+The company's published corporate identification number is:
+
+CIN: U62013TN2025OPC180906
+
+The company's published GSTIN is:
+
+GSTIN: 33AADCU8528M1ZW
+
+Verify these values against the current official company records before final publication.
+
+Do not change company identifiers or invent additional registrations.
+
+Use the company's actual services and published prices.
+
+Do not invent:
+
+- Client names.
+- Customer reviews.
+- Project case studies.
+- Awards.
+- Certifications.
+- Partnerships.
+- Office locations.
+- Contact numbers.
+- Guaranteed delivery times.
+- Search ranking guarantees.
+- Performance statistics.
+- Employee counts.
+- Revenue figures.
+- Technical certifications.
+
+Where the existing website contains outdated or inconsistent details, flag them for review and make the affected content easy to update.
+
+---
+
+## 21. CONFIGURATION AND MAINTAINABILITY
+
+Create a simple configuration layer for information that may need to change later.
+
+Where practical, centralise:
+
+- Company name.
+- Brand logo.
+- Contact email.
+- Contact address.
+- Verified WhatsApp destination.
+- Social media links.
+- Pricing values.
+- Service links.
+- Company statistics.
+- Copyright information.
+
+Do not duplicate configurable information unnecessarily across dozens of files.
+
+For a static HTML implementation, use a maintainable shared configuration or component-generation approach without introducing fragile runtime dependencies.
+
+If you use a build step to generate repeated components, make sure the production output contains the complete static pages.
+
+Ensure the final website does not require an unavailable backend merely to display its content.
+
+---
+
+## 22. SECURITY AND PRIVACY
+
+Follow sensible security practices.
+
+- Do not expose private credentials.
+- Do not include API secrets in frontend code.
+- Avoid unsafe HTML injection.
+- Validate and sanitise submitted form data on the server when a backend is used.
+- Avoid collecting unnecessary personal information.
+- Use HTTPS for external integrations.
+- Do not load untrusted scripts.
+- Avoid unnecessary third-party tracking.
+- Document external services and their configuration.
+- Ensure forms provide clear feedback and do not claim successful delivery without confirmation.
+
+Do not add cookie banners, analytics, advertising pixels, or tracking systems unless there is a genuine requirement and they are configured appropriately.
+
+If analytics or cookies are used, ensure the implementation is consistent with the applicable privacy requirements.
+
+---
+
+## 23. REQUIRED TESTING BEFORE DELIVERY
+
+Do not consider the project complete merely because the homepage renders.
+
+Test the entire website.
+
+### Page completeness
+
+Verify that every page identified in the initial audit has been implemented.
+
+Check every page against the source content.
+
+Confirm that no major section, service, legal clause, price, or important CTA has been accidentally omitted.
+
+### Link testing
+
+Check:
+
+- Header navigation.
+- Footer navigation.
+- Service links.
+- Pricing links.
+- Contact links.
+- Legal links.
+- Email links.
+- WhatsApp links.
+- Internal CTA buttons.
+- External links.
+- Canonical URLs.
+- Sitemap entries.
+
+Resolve broken internal links.
+
+### Responsive testing
+
+Test representative pages at:
+
+- 320 px.
+- 360 px.
+- 375 px.
+- 390 px.
+- 430 px.
+- 768 px.
+- 1024 px.
+- 1280 px.
+- 1440 px.
+- 1920 px.
+
+Check for clipped text, broken grids, oversized animations, overflowing images, inaccessible menus, and horizontal scrolling.
+
+### Functional testing
+
+Verify that:
+
+- Navigation opens and closes.
+- Dropdowns work.
+- Buttons perform their stated actions.
+- Forms validate correctly.
+- Form submission uses the configured delivery mechanism.
+- Pricing CTAs work.
+- Accordions function.
+- Carousels function if present.
+- Legal links work.
+- Direct page URLs load.
+- Page refreshes work.
+- Browser back and forward work.
+- Reduced-motion preferences are respected.
+
+### Technical testing
+
+Check:
+
+- Browser console errors.
+- Missing files.
+- Broken image paths.
+- JavaScript exceptions.
+- CSS loading.
+- Font loading.
+- HTML validity.
+- Accessibility issues.
+- SEO metadata.
+- Image dimensions.
+- Network failures.
+- Unexpected external dependencies.
+
+Use browser-based testing where available.
+
+If an issue cannot be tested because credentials, a backend, or a required integration are unavailable, identify that limitation explicitly.
+
+Do not report an untested feature as verified.
+
+---
+
+## 24. DEPLOYMENT REQUIREMENTS
+
+The website must be ready for upload to a conventional web server.
+
+Provide a complete project directory with:
+
+- `index.html`.
+- Every additional required HTML page.
+- All CSS files.
+- All JavaScript files.
+- All required images and icons.
+- Required fonts or font-loading configuration.
+- Sitemap.
+- Robots.txt.
+- Web manifest if applicable.
+- Any other necessary static assets.
+- A README.md containing deployment instructions.
+
+If using a build system, include the complete source code and the production build output.
+
+The production website must work when uploaded to the web root of the domain.
+
+All required assets must be included.
+
+Do not rely on files that exist only in your development environment.
+
+Do not require a developer to recreate missing files manually.
+
+### Deployment instructions
+
+Document:
+
+1. Which directory contains the production website.
+2. Which files should be uploaded.
+3. Whether a build command must be run first.
+4. How to configure the contact form.
+5. How to configure the verified WhatsApp destination.
+6. Whether any server rewrite rules are required.
+7. How to configure HTTPS and canonical URLs.
+8. How to update contact information and prices.
+9. How to verify that the deployment works.
+
+If a static server cannot support a particular feature, explain what additional service or configuration is required.
+
+---
+
+## 25. EXPECTED OUTPUT AND EXECUTION PROCESS
+
+Work in the following order.
+
+### Phase 1: Website audit
+
+Inspect the complete existing website.
+
+Create a list of every page and important content section.
+
+Record all existing URLs, navigation items, services, prices, legal pages, and contact details.
+
+Identify conflicting or unverifiable information.
+
+### Phase 2: Design system
+
+Establish the colour palette, typography, spacing, responsive grid, buttons, cards, navigation, animation rules, and shared components.
+
+Use the design system consistently.
+
+### Phase 3: Complete implementation
+
+Build the homepage, About page, every service page, pricing page where applicable, contact page, and every legal page.
+
+Implement all navigation, animations, responsive layouts, and required interactions.
+
+Create all supporting files.
+
+### Phase 4: Content verification
+
+Compare the rebuilt pages with the original website.
+
+Verify all substantive content.
+
+Ensure no existing service or important legal page has been omitted.
+
+Verify every published price and condition.
+
+Flag unresolved discrepancies.
+
+### Phase 5: Functional and responsive testing
+
+Test navigation, forms, page routes, buttons, animations, accessibility, and responsive behaviour.
+
+Resolve issues before delivery.
+
+### Phase 6: Production build
+
+Generate the complete static production website.
+
+Ensure `index.html` and all required assets are included.
+
+Verify that the site works from the production output rather than only from a development server.
+
+### Phase 7: Handover
+
+Provide the complete project files and a concise deployment guide.
+
+Summarise:
+
+- Pages implemented.
+- Original URLs preserved.
+- Additional pages created.
+- Features implemented.
+- Functional tests completed.
+- Any outstanding external configuration.
+- Any source content requiring company approval.
+- Exact instructions for uploading the website.
+
+---
+
+## 26. NON-NEGOTIABLE RULES
+
+1. Do not build only a homepage.
+2. Do not omit any existing first-party page discovered during the audit.
+3. Do not replace complete pages with short placeholder text.
+4. Do not fabricate company details, testimonials, statistics, prices, awards, or legal terms.
+5. Do not remove important content merely to make the design look cleaner.
+6. Do not use broken navigation or placeholder links.
+7. Do not create forms that pretend to submit data.
+8. Do not make mobile responsiveness an afterthought.
+9. Do not overload the site with animations that damage performance.
+10. Do not depend on a development server for the production website.
+11. Do not provide only a screenshot or visual prototype.
+12. Do not claim that a feature has been tested when it has not.
+13. Do not silently change existing URLs without considering redirects and SEO.
+14. Do not leave missing images, broken assets, or empty pages in the final deliverable.
+15. Do not stop when the initial implementation looks attractive; complete the functional and content verification stages.
+16. Preserve the original business meaning and legally relevant information.
+17. If the task is too large to complete in one generation, work systematically through all pages and continue until the full project is implemented. Do not silently reduce the scope.
+
+---
+
+## 27. FINAL QUALITY STANDARD
+
+The final result should look and behave like a professionally engineered website for a modern international digital technology company.
+
+The first impression should be visually striking.
+
+The navigation should be intuitive.
+
+The typography should be excellent.
+
+The liquid effects should feel sophisticated rather than excessive.
+
+The animations should feel smooth and purposeful.
+
+The service pages should be detailed and genuinely useful.
+
+The pricing should be clear.
+
+The contact experience should work.
+
+The legal pages should be complete and readable.
+
+The mobile experience should be as carefully designed as the desktop experience.
+
+The website should load quickly, remain accessible, and be technically maintainable.
+
+Most importantly, the new website must retain the substantive content and page coverage of the existing UseCodify India website while delivering a substantial improvement in visual quality, usability, and conversion potential.
+
+**BEGIN BY AUDITING THE LIVE WEBSITE, THEN BUILD THE COMPLETE REDESIGN. DELIVER THE ACTUAL PROJECT FILES, A WORKING `index.html`, ALL REQUIRED SUPPORTING PAGES AND ASSETS, AND VERIFIED DEPLOYMENT INSTRUCTIONS.**

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "inq_1793356764410_jo17j",
+    "fullName": "Priya Sharma",
+    "email": "priya@growthventures.in",
+    "phone": "+91 99887 76655",
+    "service": "Business Website Package (₹7,999)",
+    "message": "We are launching an edtech platform and need a high-converting web landing page and CMS within 72 hours.",
+    "status": "new",
+    "createdAt": "2026-10-30T10:39:24.410Z",
+    "userAgent": "curl/7.88.1",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "inq_1793356559192_zijz5",
+    "fullName": "Arun Kumar",
+    "email": "arun@example.com",
+    "phone": "+91 98765 43210",
+    "service": "KickStart Website Package (₹5,999)",
+    "message": "Looking to build a dental clinic website.",
+    "status": "new",
+    "createdAt": "2026-10-30T10:35:59.192Z",
+    "userAgent": "curl/7.88.1",
+    "ip": "127.0.0.1"
+  }
+]
